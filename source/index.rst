@@ -50,7 +50,7 @@ Welcome MerCat2!
 Getting Started 
 ==================
 
-There are two different ways of installing mercat2: Bioconda Installer and Source Installer
+There are two different ways of installing MerCat2: Bioconda Installer and Source Installer
 
 .. note::
 
@@ -80,7 +80,7 @@ This step is done via Bioconda git reset --hard <commit-hash>
 
 Option 2: Source Installer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Clone mercat2 from github
+1. Clone MerCat2 from github
 2. Run install_mercat2.sh to install all required dependencies 
 
 This script creates a conda environment for you 
@@ -174,7 +174,7 @@ Example: mercat2.py -h
 
 
 
-Mercat2 assumes the input file format based on the extension provided 
+MerCat2 assumes the input file format based on the extension provided 
 
 * Raw fastq file: ['.fastq', '.fq']
 * Nucleotide fasta: ['.fa', '.fna', '.ffn', '.fasta']
