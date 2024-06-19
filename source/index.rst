@@ -65,9 +65,12 @@ Option 1: Bioconda Installer
    conda activate mercat2v
 
 ::
+
+
 .. note::
 
     Make sure you install mamba in your base conda environment. We have found that mamba is faster than conda for installing packages and creating environments. Using conda might fail to resolve dependencies. 
+  
 
 2. Install MerCat2 
 This step is done via Bioconda git reset --hard <commit-hash>
@@ -121,9 +124,10 @@ Required dependencies
    conda install -c bioconda fastqc fastp prodigal
 
 ::
-.. note::
 
-    These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
+
+These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
+  
 
 
 Notes on memory usage and speed  
