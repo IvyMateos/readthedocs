@@ -1,4 +1,4 @@
-Running MerCat2
+How to use Mercat2
 ================================================
 Here you will find any dependencies needed and how to run MerCat2 on your system
 
@@ -12,6 +12,7 @@ MerCat2 can run without external dependencies based on the options used.
 
 Required dependencies 
 ~~~~~~~~~~~~~~~~~~~~~~~~
+Depending on what type of file you are using, there may be additional dependencies needed, here you will find those requirements 
 * When raw read .fastq is given 
    - `Fastqc <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_
    - `Fastp <https://github.com/OpenGene/fastp>`_
@@ -31,7 +32,6 @@ Required dependencies
 
 These are available through Bioconda, except FragGeneScanRs, which is included in the MerCat2 distribution.
   
-
 
 Notes on memory usage and speed  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
