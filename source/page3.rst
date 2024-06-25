@@ -1,6 +1,6 @@
 Citations and Copywrite
 ===========================
-
+If you are using MerCat2, please cite accordingly 
 Citing Mercat2
 ~~~~~~~~~~~~~~~~~~~~~~~~
 If you are publishing results obtained using MerCat2, please cite:
