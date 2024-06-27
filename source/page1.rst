@@ -1,17 +1,18 @@
-Tutorial
+Tutorials
 ================================================
 
-The following tutorial will show you how to use MerCat2 and the types of results that will be generated
+The following tutorial will show you how to use MerCat2 and the results that will be generated
 
-
-- Before you start installing MerCat2, install Conda into your system 
-
-Tutorial for a Source code 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Before you start installing MerCat2, install Conda into your system 
 
 This tutorial will use the data in the github repository to demonstarte what data would be generated and use the following scripts to install MerCat2 
 
-Open a terminal on your system
+Open a terminal on your system to start any of these tutorials 
+
+
+Source code tutorial 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 1. Clone the github repository 
 
@@ -111,6 +112,101 @@ You can now use the `ls` command to see your results appear on your system
 
 - Here you will see the generated files including a combined_protein.tsv, a combined_protein_T.tsv, and a report  tsv_protein file 
 
+
+
+Locally OSX-ARM (M1/M2) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You will need to clone the MerCat2 repository for this as well 
+
+1. Clone the github repository 
+
+::
+
+   git clone https://github.com/raw-lab/mercat2.git
+
+::
+
+2. Set up the conda enviornment 
+
+::
+
+   conda create -y -n mercat2 
+   conda activate mercat2 
+   conda config --env --set subdir osx-64
+
+::
+
+3. Install mamba, python, and pydantic inside the environment
+
+
+::
+
+   conda install -y -c conda-forge mamba python=3.10 "pydantic<2"
+
+::
+
+4. Install MerCat2 with mamba 
+
+
+::
+
+   mamba install -y -c conda-forge -c bioconda mercat2
+   mercat2.py --setup 
+   mercat2.py --download
+
+::
+
+
+
+5. Find open the data folder
+
+
+
+- You can use the `ls` command in order to see what files you currently have 
+
+6. Open the data file 
+
+::
+
+   cd data 
+
+::
+
+
+
+- Run `ls` again to select which file you want to use 
+
+
+- In this tutorial we will use the 5-genomes-faa file to run results 
+
+
+::
+
+   cd 5-genomes-faa
+
+::
+
+7. Choose which file you want to run 
+
+
+- Run the `ls` command again to see all the files 
+
+
+
+- Under this folder there are many files you can run including DJ_pro.faa  GIC31_pro.faa  Rleg_pro.faa  RW1_pro.faa  RW2_pro.faa
+
+
+Because this is a .faa file you can use the following script to run it, depending on the type of file the script might look slighlty different. 
+Consult the Usage Examples table to see which script to use 
+
+::
+
+   mercat2.py -i DJ_pro.faa -k 3 -n 8 -c 1
+
+::
+
+You succesfully ran MerCat2!
 
 
 
