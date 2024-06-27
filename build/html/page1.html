@@ -21,7 +21,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="More about dependencies" href="page2.html" />
+    <link rel="next" title="How to use Mercat2" href="page2.html" />
     <link rel="prev" title="Welcome to MerCat2!" href="index.html" /> 
 </head>
 
@@ -45,8 +45,14 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial</a></li>
-<li class="toctree-l1"><a class="reference internal" href="page2.html">More about dependencies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tutorial-for-a-source-code">Tutorial for a Source code</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="page2.html">How to use Mercat2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="page2.html#options-for-using-mercat2">Options for using Mercat2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="page2.html#outputs">Outputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="page3.html">Citations and Copywrite</a></li>
 </ul>
 
         </div>
@@ -75,6 +81,87 @@
              
   <section id="tutorial">
 <h1>Tutorial<a class="headerlink" href="#tutorial" title="Link to this heading"></a></h1>
+<p>The following tutorial will show you how to use MerCat2 and the types of results that will be generated</p>
+<ul class="simple">
+<li><p>Before you start installing MerCat2, install Conda into your system</p></li>
+</ul>
+<section id="tutorial-for-a-source-code">
+<h2>Tutorial for a Source code<a class="headerlink" href="#tutorial-for-a-source-code" title="Link to this heading"></a></h2>
+<p>This tutorial will use the data in the github repository to demonstarte what data would be generated and use the following scripts to install MerCat2</p>
+<p>Open a terminal on your system</p>
+<ol class="arabic simple">
+<li><p>Clone the github repository</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">raw</span><span class="o">-</span><span class="n">lab</span><span class="o">/</span><span class="n">mercat2</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Activate the anaconda environment using the following script</p></li>
+</ol>
+<ul class="simple">
+<li><p>depending on where you are running MerCat2, this may vary. Ask your supervisor for the appropriate environment.</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">anaconda3</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Initialize shell environment to use Conda</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">eval</span> <span class="s2">&quot;$(conda shell.bash hook)&quot;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Activate the Conda envrionment</p></li>
+</ol>
+<ul class="simple">
+<li><p>This will be the path to the file where you are running your results</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="o">/</span><span class="n">projects</span><span class="o">/</span><span class="n">raw_lab</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">mercat2</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Find open the data folder</p></li>
+</ol>
+<ul class="simple">
+<li><p>You can use the <cite>ls</cite> command in order to see what files you currently have</p></li>
+</ul>
+<ol class="arabic simple" start="6">
+<li><p>Open the data file</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">data</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- Run `ls` again to select which file you want to use
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>In this tutorial we will use the 5-genomes-faa file to run results</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="mi">5</span><span class="o">-</span><span class="n">genomes</span><span class="o">-</span><span class="n">faa</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Choose which file you want to run</p></li>
+</ol>
+<ul class="simple">
+<li><p>Run the <cite>ls</cite> command again to see all the files</p></li>
+<li><p>Under this folder there are many files you can run including DJ_pro.faa  GIC31_pro.faa  Rleg_pro.faa  RW1_pro.faa  RW2_pro.faa</p></li>
+</ul>
+<p>Because this is a .faa file you can use the following script to run it, depending on the type of file the script might look slighlty different.
+Consult the Usage Examples table to see which script to use</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mercat2</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">i</span> <span class="n">DJ_pro</span><span class="o">.</span><span class="n">faa</span> <span class="o">-</span><span class="n">k</span> <span class="mi">3</span> <span class="o">-</span><span class="n">n</span> <span class="mi">8</span> <span class="o">-</span><span class="n">c</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>You succesfully ran MerCat2!</p>
+<p>You can now use the <cite>ls</cite> command to see your results appear on your system</p>
+<p>8. View results</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">mercat2_results</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">Here</span> <span class="n">you</span> <span class="n">will</span> <span class="n">see</span> <span class="n">the</span> <span class="n">generated</span> <span class="n">files</span> <span class="n">including</span> <span class="n">a</span> <span class="n">combined_protein</span><span class="o">.</span><span class="n">tsv</span><span class="p">,</span> <span class="n">a</span> <span class="n">combined_protein_T</span><span class="o">.</span><span class="n">tsv</span><span class="p">,</span> <span class="ow">and</span> <span class="n">a</span> <span class="n">report</span>  <span class="n">tsv_protein</span> <span class="n">file</span>
+</pre></div>
+</div>
+</section>
 </section>
 
 
@@ -82,7 +169,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="Welcome to MerCat2!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="page2.html" class="btn btn-neutral float-right" title="More about dependencies" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="page2.html" class="btn btn-neutral float-right" title="How to use Mercat2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
