@@ -207,6 +207,9 @@ Consult the Usage Examples table to see which script to use
 
 You succesfully ran MerCat2!
 
+Here are the different results you will obtain after running MerCat2
+
+
 .. tabs::
 
    .. tab:: Source Installer
