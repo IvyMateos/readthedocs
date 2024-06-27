@@ -23,6 +23,7 @@ Open a terminal on your system
 
 2. Activate the anaconda environment using the following script 
 
+
 - depending on where you are running MerCat2, this may vary. Ask your supervisor for the appropriate environment.
 ::
 
@@ -40,6 +41,7 @@ Open a terminal on your system
 
 4. Activate the Conda envrionment 
 
+
 - This will be the path to the file where you are running your results 
 ::
 
@@ -48,6 +50,8 @@ Open a terminal on your system
 ::
 
 5. Find open the data folder
+
+
 
 - You can use the `ls` command in order to see what files you currently have 
 
@@ -60,7 +64,9 @@ Open a terminal on your system
 ::
 
 
+
 - Run `ls` again to select which file you want to use 
+
 
 - In this tutorial we will use the 5-genomes-faa file to run results 
 
@@ -73,9 +79,13 @@ Open a terminal on your system
 
 7. Choose which file you want to run 
 
+
 - Run the `ls` command again to see all the files 
 
+
+
 - Under this folder there are many files you can run including DJ_pro.faa  GIC31_pro.faa  Rleg_pro.faa  RW1_pro.faa  RW2_pro.faa
+
 
 Because this is a .faa file you can use the following script to run it, depending on the type of file the script might look slighlty different. 
 Consult the Usage Examples table to see which script to use 
@@ -96,7 +106,8 @@ You can now use the `ls` command to see your results appear on your system
    cd mercat2_results
 
 ::
-   
+
+
 
 - Here you will see the generated files including a combined_protein.tsv, a combined_protein_T.tsv, and a report  tsv_protein file 
 
