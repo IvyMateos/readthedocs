@@ -68,8 +68,8 @@ Option 1: Bioconda Installer
 
 ::
 
-   mamba create -n mercat2 -c conda-forge -c bioconda mercat2
-   conda activate mercat2v
+   mamba activate base
+   conda install mamba
 
 ::
 
