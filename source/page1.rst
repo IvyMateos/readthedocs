@@ -211,26 +211,13 @@ You succesfully ran MerCat2!
 
    .. tab:: Source Installer
 
-      5. Find open the data folder
+      7. Choose which file you want to run 
+      ::
 
+         mercat2.py -i DJ_pro.faa -k 3 -n 8 -c 1
 
-
-- You can use the `ls` command in order to see what files you currently have 
-
-6. Open the data file 
-
-::
-
-   cd data 
-
-::
-
-
-Run `ls` again to select which file you want to use 
-
-
-- In this tutorial we will use the 5-genomes-faa file to run results 
-
+      ::
+      ivy mg    
 
 
    .. tab:: OSX-ARM (M1/M2)
