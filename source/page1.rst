@@ -207,5 +207,13 @@ Consult the Usage Examples table to see which script to use
 
 You succesfully ran MerCat2!
 
+.. tabs::
 
+   .. tab:: Apples
+
+      Apples are green, or sometimes red.
+
+   .. tab:: Pears
+
+      Pears are green.
 

@@ -13,7 +13,7 @@ author = 'Jose L Figueroa, III, Andrew Redinbo, Ajay Panyala, Sean Colby, Maren 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+# extensions = []  testing
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -32,3 +32,5 @@ html_sidebars = {
 }
 
 master_doc = 'index'
+
+extensions = ['sphinx_tabs.tabs']
