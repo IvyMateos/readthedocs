@@ -10,7 +10,7 @@ This tutorial will use the data in the github repository to demonstarte what dat
 Open a terminal on your system to start any of these tutorials 
 
 
-Source code tutorial 
+Source Installer 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -66,7 +66,7 @@ Source code tutorial
 
 
 
-- Run `ls` again to select which file you want to use 
+Run `ls` again to select which file you want to use 
 
 
 - In this tutorial we will use the 5-genomes-faa file to run results 
@@ -110,7 +110,7 @@ You can now use the `ls` command to see your results appear on your system
 
 
 
-- Here you will see the generated files including a combined_protein.tsv, a combined_protein_T.tsv, and a report  tsv_protein file 
+Here you will see the generated files including a combined_protein.tsv, a combined_protein_T.tsv, and a report  tsv_protein file 
 
 
 
@@ -174,8 +174,7 @@ You will need to clone the MerCat2 repository for this as well
 ::
 
 
-
-- Run `ls` again to select which file you want to use 
+Run `ls` again to select which file you want to use 
 
 
 - In this tutorial we will use the 5-genomes-faa file to run results 

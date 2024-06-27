@@ -10,7 +10,7 @@ This tutorial will use the data in the github repository to demonstarte what dat
 Open a terminal on your system to start any of these tutorials 
 
 
-Source code tutorial 
+Source Installer 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

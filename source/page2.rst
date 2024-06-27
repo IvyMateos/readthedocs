@@ -130,7 +130,7 @@ Results are stored in the output folder (default 'mercat_results' of the current
 
 * If the  -fgs option is used, a 'fgs' folder is created with the amino acid .faa file
 
-.. add picture here
+
 
 Diversity Estimation
 ~~~~~~~~~~~~~~~~~~~~~~~~
