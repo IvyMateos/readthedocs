@@ -37,11 +37,3 @@ extensions = ['sphinx_tabs.tabs']
 
 
 
-html_theme_options = {
-    'html_static_path': '_static',
-    'html_extra_path': '_extra',
-    'html_title': "MerCat2 Documentation",
-    'html_extra_files': ['report.html'],
-}
-
-#i added lines 40 to here to test out the confy.py

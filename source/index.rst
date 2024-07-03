@@ -9,8 +9,7 @@
    page1
    page2
    page3
-   report
-
+   
 Welcome to MerCat2!
 ================================================
 |paper| |preprint| |install with| |Anaconda.org| |Last updated| |last updated| |Platforms| |license| |Downloads| |downloads| |downloads/month| |downloads/week|
