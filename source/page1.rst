@@ -219,26 +219,10 @@ You succesfully ran MerCat2!
 
 Here are the different results you will obtain after running MerCat2
 
+
+
+
 Here is a link to the `report.html` page:
 
 `report.html <report.html>`__
-
-
-
-.. .. tabs::
-
-..    .. tab:: Source Installer
-
-..       7. Choose which file you want to run 
-..       ::
-
-..          mercat2.py -i DJ_pro.faa -k 3 -n 8 -c 1
-
-..       ::
-..       ivy mg    
-
-
-..    .. tab:: OSX-ARM (M1/M2)
-
-..       Pears are green.
 
