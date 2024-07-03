@@ -50,11 +50,17 @@ Source Installer
 
 ::
 
-5. Find open the data folder
+5. Open mercat2 
 
+You can use ls command to see what files you have during each step 
 
+::
 
-- You can use the `ls` command in order to see what files you currently have 
+   cd mercat2 
+
+::
+
+you can use ls command to see what files you have during each step 
 
 6. Open the data file 
 
@@ -159,7 +165,7 @@ You will need to clone the MerCat2 repository for this as well
 
 
 
-5. Find the data folder
+5. Open mercat2
 
 ::
 
@@ -167,7 +173,7 @@ You will need to clone the MerCat2 repository for this as well
 
 ::
 
-- You can use the `ls` command in order to see what files you currently have 
+
 
 6. Open the data file 
 
