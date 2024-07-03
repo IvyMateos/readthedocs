@@ -104,4 +104,4 @@ More information about the different ways to use MerCat2 and any additonal depen
 
 Here is a link to the `report.html` page:
 
-`report.html <report.html>`__
+`report.html <./report.html>`__
