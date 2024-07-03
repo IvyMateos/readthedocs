@@ -7,3 +7,8 @@ build:
     - mkdir --parents _readthedocs/html/
     - cp --recursive pre_built_html/* _readthedocs/html/
     - cp report.html _readthedocs/html/
+
+python:
+  install:
+    - method: pip
+      path: .
