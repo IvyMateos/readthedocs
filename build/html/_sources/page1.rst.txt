@@ -222,7 +222,4 @@ Here are the different results you will obtain after running MerCat2
 
 
 
-Here is a link to the `report.html` page:
-
-`report.html <report.html>`__
 
