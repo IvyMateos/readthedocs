@@ -217,20 +217,20 @@ Here are the different results you will obtain after running MerCat2
 
 
 
-.. tabs::
+.. .. tabs::
 
-   .. tab:: Source Installer
+..    .. tab:: Source Installer
 
-      7. Choose which file you want to run 
-      ::
+..       7. Choose which file you want to run 
+..       ::
 
-         mercat2.py -i DJ_pro.faa -k 3 -n 8 -c 1
+..          mercat2.py -i DJ_pro.faa -k 3 -n 8 -c 1
 
-      ::
-      ivy mg    
+..       ::
+..       ivy mg    
 
 
-   .. tab:: OSX-ARM (M1/M2)
+..    .. tab:: OSX-ARM (M1/M2)
 
-      Pears are green.
+..       Pears are green.
 

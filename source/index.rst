@@ -9,6 +9,7 @@
    page1
    page2
    page3
+   report
 
 Welcome to MerCat2!
 ================================================
