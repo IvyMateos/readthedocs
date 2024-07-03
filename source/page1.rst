@@ -159,9 +159,13 @@ You will need to clone the MerCat2 repository for this as well
 
 
 
-5. Find open the data folder
+5. Find the data folder
 
+::
 
+   cd mercat2
+
+::
 
 - You can use the `ls` command in order to see what files you currently have 
 
@@ -208,6 +212,9 @@ Consult the Usage Examples table to see which script to use
 You succesfully ran MerCat2!
 
 Here are the different results you will obtain after running MerCat2
+
+
+
 
 
 .. tabs::
