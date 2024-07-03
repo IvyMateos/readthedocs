@@ -220,6 +220,8 @@ You succesfully ran MerCat2!
 Here are the different results you will obtain after running MerCat2
 
 
+.. raw:: html
 
+    <a href="report.html" target="_blank">Click here to view the report</a>
 
 
