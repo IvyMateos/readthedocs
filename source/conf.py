@@ -37,4 +37,4 @@ extensions = ['sphinx_tabs.tabs']
 
 
 
-source_suffix = '.html'
+# source_suffix = '.html'
