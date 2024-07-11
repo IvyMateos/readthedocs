@@ -7,7 +7,7 @@ Before you start installing MerCat2, install Conda into your system
 
 This tutorial will use the data in the github repository to demonstarte what data would be generated and use the following scripts to install MerCat2 
 
-Open a terminal on your system to start any of these tutorials 
+First, open a terminal on your system to start any of these tutorials 
 
 
 Source Installer 
@@ -51,8 +51,11 @@ Source Installer
 ::
 
 5. Open mercat2 
+.. note::
 
-You can use ls command to see what files you have during each step 
+    You can use ls command to see what files you have during each step 
+
+
 
 ::
 
@@ -60,9 +63,10 @@ You can use ls command to see what files you have during each step
 
 ::
 
-you can use ls command to see what files you have during each step 
 
-6. Open the data file 
+ 
+
+6. Open the data file
 
 ::
 
