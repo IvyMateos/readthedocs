@@ -51,9 +51,8 @@ Source Installer
 ::
 
 5. Open mercat2 
-.. note::
 
-    You can use ls command to see what files you have during each step 
+You can use ls command to see what files you have during each step 
 
 
 
