@@ -37,3 +37,4 @@ extensions = ['sphinx_tabs.tabs']
 
 
 
+source_suffix = '.html'
