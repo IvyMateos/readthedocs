@@ -103,6 +103,6 @@ This script creates a conda environment for you
 
 More information about the different ways to use MerCat2 and any additonal dependencies can be found in the next pages. 
 
-.. image:: 
+.. image:: /Users/ivy/Desktop/readthedocs/IMG_0407.jpg
   :width: 400
   
