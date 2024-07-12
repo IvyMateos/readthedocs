@@ -105,4 +105,4 @@ More information about the different ways to use MerCat2 and any additonal depen
 
 .. image:: source/screenshot.png
   :width: 400
-  :alt: Alternative text
+  
