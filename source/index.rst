@@ -103,4 +103,6 @@ This script creates a conda environment for you
 
 More information about the different ways to use MerCat2 and any additonal dependencies can be found in the next pages. 
 
-
+.. image:: source/screenshot.png
+  :width: 400
+  :alt: Alternative text
