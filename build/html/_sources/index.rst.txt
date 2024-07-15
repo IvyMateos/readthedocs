@@ -9,7 +9,7 @@
    page1
    page2
    page3
-   report
+   
    
 Welcome to MerCat2!
 ================================================
@@ -104,5 +104,6 @@ This script creates a conda environment for you
 More information about the different ways to use MerCat2 and any additonal dependencies can be found in the next pages. 
 
 .. image:: https://github.com/IvyMateos/readthedocs/blob/main/IMG_0407.jpg?raw=true
-  :width: 400
-  
+  :width: 400 
+
+

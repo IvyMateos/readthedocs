@@ -38,3 +38,5 @@ extensions = ['sphinx_tabs.tabs']
 
 
 # source_suffix = '.html'
+
+html_translator_class = 'custom_html_translator.PatchedHTMLTranslator' 
