@@ -222,9 +222,9 @@ You succesfully ran MerCat2!
 
 Here are the different results you will obtain after running MerCat2
 
+- A MerCat2 summary can be found under the report.html file 
 
-.. raw:: html
 
-    <a href="report.html" target="_blank">Click here to view the report</a>
+
 
 
