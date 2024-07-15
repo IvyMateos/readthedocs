@@ -225,7 +225,7 @@ Here are the different results you will obtain after running MerCat2
 - A MerCat2 summary can be found under the report.html file 
 
 
-`View Report </Users/ivy/Desktop/readthedocs/source/report.html>`__ 
+`View Report </Users/ivy/Desktop/readthedocs/build/html/results_22-06-03_prodigal_5-genomes/plots/report.html>`__ 
 
 
 
